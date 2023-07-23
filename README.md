@@ -24,8 +24,10 @@ In this tutorial, you'll learn the basics of Rust, including:
 - Error Handling
 - Ownership and Borrowing
 - Structs, Enums, and Pattern Matching
-- Modules and Packages
+- Modules, Packages, and Crates
 - Concurrency
+
+We'll also explore how to use the Cargo package manager to manage dependencies and build a Rust project.
 
 ## Running the Code
 

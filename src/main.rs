@@ -1,5 +1,6 @@
 use std::io;
 use std::io::Write; // For the write! macro
+use rand::Rng;
 
 enum Choice {
     GoLeft,
@@ -31,10 +32,18 @@ fn get_user_choice() -> Choice {
 fn main() {
     println!("Welcome to the dungeon!");
 
+    let mut rng = rand::thread_rng();
+
     loop {
         match get_user_choice() {
             Choice::GoLeft => println!("You go left and find a dead end."),
-            Choice::GoRight => println!("You go right and find a treasure chest!"),
+            Choice::GoRight => {
+                if rng.gen_bool(0.5) {
+                    println!("You go right and find a treasure chest!");
+                } else {
+                    println!("You go right and meet a terrible monster!");
+                }
+            }
             Choice::Quit => {
                 println!("You've chosen to quit the game. Goodbye!");
                 break;
