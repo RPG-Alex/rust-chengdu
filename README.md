@@ -15,7 +15,7 @@ To get the most out of this tutorial, you should have a basic understanding of p
 You'll need the following software installed:
 
 1. [Rust](https://www.rust-lang.org/tools/install)
-2. An editor like [VS Code](https://code.visualstudio.com/download) (recommended with the [Rust (rls)](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) extension)
+2. An editor like [VS Code](https://code.visualstudio.com/download) (recommended with the [Rust-Analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) extension)
 
 ## What You'll Learn
 
