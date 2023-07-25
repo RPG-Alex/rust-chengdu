@@ -22,6 +22,8 @@
 ## Rust Community Resources
 [This Week in Rust (newsletter)](https://this-week-in-rust.org/)
 
+[The Rust Programming Language Forum](https://users.rust-lang.org/)
+
 ## Plugins Used For Tutorial
 [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
