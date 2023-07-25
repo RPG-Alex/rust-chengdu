@@ -34,6 +34,9 @@ Follow the instructions for your OS below. Refer to [Rust](https://www.rust-lang
 `
 rustc --version
 `
+`
+cargo --version
+`
 
 This should show the installed version of Rust.
 
@@ -54,6 +57,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 `
 rustc --version
 `
+`
+cargo --version
+`
 
 This should output the version of Rust that was installed.
 
@@ -69,7 +75,6 @@ In this tutorial, you'll learn the basics of Rust, including:
 - Ownership and Borrowing
 - Structs, Enums, and Pattern Matching
 - Modules, Packages, and Crates
-- Concurrency
 
 We'll also explore how to use the Cargo package manager to manage dependencies and build a Rust project.
 

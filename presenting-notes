@@ -1,5 +1,15 @@
-## Rust Data types:
-    
+## Shown Concepts and location with explanation:
+    Variables and Data Types: Variables are declared and used throughout your program. For example, let mut rng = rand::thread_rng(); declares a mutable variable rng of the type determined by the return value of rand::thread_rng(). In let mut lives: i8 = 1;, lives is a variable of type i8.
+
+    Control Flow: The loop in the main function and the match statements inside the get_user_choice() function and main function are all examples of control flow. The if statements inside the match arms are also control flow structures.
+
+    Error Handling: The .unwrap() method, seen in io::stdin().read_line(&mut choice).unwrap();, is a rudimentary form of error handling that essentially says "If this Result is an Err, panic and crash the program. Otherwise, give me the value." This isn't usually the best way to handle errors in a production program, but it is often used for simplicity in examples.
+
+    Ownership and Borrowing: In choice.trim().to_lowercase().as_str(), the method .trim() borrows choice, returning a string slice (a borrowed reference to part of the original String), which is then transformed to lowercase, which requires taking ownership of the slice and producing a new String, which .as_str() then borrows to produce a &str again.
+
+    Structs, Enums, and Pattern Matching: Your Choice enum is an example of an enum, and the match statements you use to determine what to do based on the Choice value are examples of pattern matching.
+
+    Modules, Packages, and Crates: use std::io;, use std::io::Write;, and use rand::Rng; at the top of your file are examples of bringing modules and items from crates into scope. The rand in use rand::Rng; and let mut rng = rand::thread_rng(); is referring to the rand crate that must be listed in your Cargo.toml file. std::io and std::io::Write refer to the io module and Write trait in Rust's standard library, which is itself organized as a crate.
 
 ## cargo.lock explanation
     Cargo.lock is a file that Cargo, Rust's package manager, generates and uses to keep track of exact versions of all of your project's dependencies. This includes not only the top-level dependencies you specified in Cargo.toml, but their dependencies, and so on.
