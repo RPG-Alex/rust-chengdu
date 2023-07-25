@@ -14,5 +14,7 @@
 
 [Google's Comprehensive Rust Course](https://google.github.io/comprehensive-rust/)
 
+[Stellar Essential Guide to Rust Developent (blockchain focused)](https://stellar.org/developers-blog/essential-guide-rust-development)
+
 # Rust Community Resources
 [This Week in Rust (newsletter)](https://this-week-in-rust.org/)
