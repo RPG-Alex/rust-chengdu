@@ -1,0 +1,6 @@
+
+
+## generate Documentation
+cargo doc --open
+    /// - use this to delineate comments to show up in documentation
+    source: https://doc.rust-lang.org/stable/book/ch14-02-publishing-to-crates-io.html#making-useful-documentation-comments
