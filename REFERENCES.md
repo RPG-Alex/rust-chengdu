@@ -16,5 +16,7 @@
 
 [Stellar Essential Guide to Rust Developent (blockchain focused)](https://stellar.org/developers-blog/essential-guide-rust-development)
 
+[FreeCodeCamp Complete Rust Course (video)](https://www.youtube.com/watch?app=desktop&v=BpPEoZW5IiY&ab_channel=freeCodeCamp.org)
+
 # Rust Community Resources
 [This Week in Rust (newsletter)](https://this-week-in-rust.org/)
