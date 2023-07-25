@@ -41,6 +41,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## Contact
+## References and Learning
 
-Feel free to reach out if you have any questions!
+[Project Reference Resources](../blob/main/REFERENCES.md)
