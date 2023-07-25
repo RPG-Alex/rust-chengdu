@@ -25,17 +25,17 @@ Follow the instructions for your OS below. Refer to [Rust](https://www.rust-lang
 
 1. To install Rust, download and run the following, and then follow the onscreen instructions.
 
-\`\`\`bash
+`bash
 https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe
-\`\`\`
+`
 
 2. After installation, you may need to close and reopen your command prompt or terminal.
 
 3. Verify the installation by typing the following command:
 
-\`\`\`bash
+`bash
 rustc --version
-\`\`\`
+`
 
 This should show the installed version of Rust.
 
@@ -45,17 +45,17 @@ This should show the installed version of Rust.
 
 2. Download and install rustup by running the following command and following on-screen instructions:
 
-\`\`\`bash
+`bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-\`\`\`
+`
 
 3. Close the terminal window and reopen a new one.
 
 4. Verify the installation with:
 
-\`\`\`bash
+`bash
 rustc --version
-\`\`\`
+`
 
 This should output the version of Rust that was installed.
 
