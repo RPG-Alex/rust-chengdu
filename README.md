@@ -83,7 +83,7 @@ To try to apply to a broader audience we won't cover:
 - Cross Compilation
 - Networking
 - Creating a library
-- Much more coverd in the [rust book](https://doc.rust-lang.org/book/)
+- Much more covered in the [rust book](https://doc.rust-lang.org/book/)
 
 ## Running the Code
 
