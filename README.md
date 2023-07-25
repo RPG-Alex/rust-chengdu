@@ -43,4 +43,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## References and Learning
 
-[Project Reference Resources](../blob/main/REFERENCES.md)
+[Project Reference Resources](../main/REFERENCES.md)
