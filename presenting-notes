@@ -1,3 +1,16 @@
+## Rust Data types:
+    
+
+## cargo.lock explanation
+    Cargo.lock is a file that Cargo, Rust's package manager, generates and uses to keep track of exact versions of all of your project's dependencies. This includes not only the top-level dependencies you specified in Cargo.toml, but their dependencies, and so on.
+
+        Each entry in the Cargo.lock file includes the name of the crate, the version, the source of the crate, and the dependencies of the crate. It might look something like this:
+
+        When you build your project for the first time, Cargo fetches all of your dependencies and records their exact versions in the Cargo.lock file. On subsequent builds, Cargo uses the versions locked in Cargo.lock instead of checking for newer versions. This helps to ensure that your project is reproducible: if you build your project again in the future, or if someone else builds your project, Cargo will use the same versions of dependencies.
+
+        There's one more thing to mention about Cargo.lock. For binary (executable) projects, it's a good idea to check Cargo.lock into version control so that everyone who checks out your code gets the exact same dependencies. For library projects, it's more common to exclude Cargo.lock from version control, because people who depend on your library could have other versions of your dependencies in their projects, and you want to make sure your library works with a range of dependency versions.
+
+        You generally won't need to edit the Cargo.lock file manually; Cargo will manage it for you. If you want to update the versions of your dependencies, you can use the cargo update command, and Cargo will update Cargo.lock automatically.
 
 
 ## generate Documentation
