@@ -2,9 +2,8 @@
 
 Welcome to the Rust Introduction Tutorial! This workshop is designed for those who are new to Rust, and it will walk you through the basics of using and understanding the language.
 
-<p align="center">
-![Rust Chengdu Coding Collective Meetup Info](chengdu-meetup-mini.png )
-</p>
+![Rust Chengdu Coding Collective Meetup Info](chengdu-meetup-mini.png){:style="display:block; margin-left:auto; margin-right:auto"}
+
 ## About Rust
 
 Rust is a modern system programming language focused on performance, safety, and concurrency. It accomplishes these goals by having a number of compile-time safety checks with no runtime overhead, while eliminating common bugs such as null pointer dereferencing, double free, dangling pointers, etc.
