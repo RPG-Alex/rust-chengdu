@@ -23,11 +23,9 @@ Follow the instructions for your OS below. Refer to [Rust](https://www.rust-lang
 
 ### Windows 
 
-1. To install Rust, download and run the following, and then follow the onscreen instructions.
+1. To install Rust, download and run, then follow the onscreen instructions.
 
-`
-https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe
-`
+[Windows Installer](https://static.rust-lang.org/rustup/dist/i686-pc-windows-gnu/rustup-init.exe)
 
 2. After installation, you may need to close and reopen your command prompt or terminal.
 
