@@ -21,3 +21,15 @@
 
 ## Rust Community Resources
 [This Week in Rust (newsletter)](https://this-week-in-rust.org/)
+
+## Plugins Used For Tutorial
+
+[rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+[Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
+
+## Project Crate
+
+[Rand Crate Documentation](https://docs.rs/rand/latest/rand/)
+
+[Rand Crates.io Page](https://crates.io/crates/rand)

@@ -1,7 +1,10 @@
 use std::io;
-use std::io::Write; // For the write! macro
+use std::io::Write; 
+
+//this is how you call a crate's methods
 use rand::Rng;
 
+/// This enum represents all valid inputs for game
 enum Choice {
     GoLeft,
     GoRight,
@@ -10,7 +13,7 @@ enum Choice {
 
 fn get_user_choice() -> Choice {
     loop {
-        println!("Do you go left or right? (L/R/Q)");
+        println!("~~Do you go left or right? (L/R/Q)");
         print!("> ");
         io::stdout().flush().unwrap(); // Ensure the `>` appears before the program waits for user input
 
@@ -30,18 +33,48 @@ fn get_user_choice() -> Choice {
 }
 
 fn main() {
-    println!("Welcome to the dungeon!");
+    println!("#### Welcome to the dungeon! ####\n#### This is a simple text based game ####\n#### follow the prompts to play! ####");
 
     let mut rng = rand::thread_rng();
 
+    let mut lives = 1;
+
     loop {
-        match get_user_choice() {
-            Choice::GoLeft => println!("You go left and find a dead end."),
-            Choice::GoRight => {
-                if rng.gen_bool(0.5) {
-                    println!("You go right and find a treasure chest!");
+        let choice = get_user_choice();
+        let roll = rng.gen_range(1..10);
+        match choice {
+            Choice::GoLeft => {
+                if roll < 2 {
+                    println!("You go left and find a treasure chest and gain one life!");
+                    lives += 1;
+                } else if roll > 2 && roll <= 6 {
+                    println!("You go left and find a dead end.");
                 } else {
-                    println!("You go right and meet a terrible monster!");
+                    if lives > 0 {
+                        println!("You go left and meet a terrible monster and lose a life!");
+                        lives -= 1;
+                    } else {
+                        println!("You go left and meet a terrible monster and lose a life!");
+                        print!("You are out of lives. Good bye!");
+                        break;
+                    }
+                }
+            }
+            Choice::GoRight => {
+                if roll > 8 {
+                    println!("You go right and find a treasure chest and gain one life!");
+                    lives += 1;
+                } else if roll < 8 && roll >= 4 {
+                    println!("You go right and find a dead end.");
+                } else {
+                    if lives > 0 {
+                        println!("You go right and meet a terrible monster and lose a life!");
+                        lives -= 1;
+                    } else {
+                        println!("You go right and meet a terrible monster and lose a life!");
+                        print!("You are out of lives. Good bye!");
+                        break;
+                    }
                 }
             }
             Choice::Quit => {
@@ -49,5 +82,6 @@ fn main() {
                 break;
             }
         }
+        println!("Lives remaining: {lives}");
     }
 }
