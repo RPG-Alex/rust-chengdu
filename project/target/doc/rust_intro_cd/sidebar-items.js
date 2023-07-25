@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["Choice"],"fn":["get_user_choice","main"]};
