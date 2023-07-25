@@ -11,7 +11,7 @@
 
 [Official Cargo Book](https://doc.rust-lang.org/cargo/index.html)
 
-[Official Rust Documentation](https://doc.rust-lang.org/beta/)
+[Rustlings Exercises](https://github.com/rust-lang/rustlings)
 
 [Google's Comprehensive Rust Course](https://google.github.io/comprehensive-rust/)
 
@@ -23,13 +23,23 @@
 [This Week in Rust (newsletter)](https://this-week-in-rust.org/)
 
 ## Plugins Used For Tutorial
-
 [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
 [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
 
 ## Project Crate
-
 [Rand Crate Documentation](https://docs.rs/rand/latest/rand/)
 
 [Rand Crates.io Page](https://crates.io/crates/rand)
+
+## Why Rust Sources 
+[Google Rust Fact vs Fiction](https://opensource.googleblog.com/2023/06/rust-fact-vs-fiction-5-insights-from-googles-rust-journey-2022.html)
+
+[Stack Overflow 2023 Survey - Admired and Desired](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages)
+
+## Reference
+[Official Rust Documentation](https://doc.rust-lang.org/beta/)
+
+[cheats.rs](https://cheats.rs/)
+
+[lets get rusty (signup required!) - with examples](https://letsgetrusty.com/)

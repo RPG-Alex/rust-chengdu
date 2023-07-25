@@ -39,9 +39,12 @@ fn main() {
     //track lives using u8
     let mut lives :i8 = 1;
 
+    //this loop repeats every time the player inputs something
     loop {
         let choice = get_user_choice();
         let roll: u8 = rng.gen_range(1..10);
+
+        // This is where the enum is evaluted and acted on.
         match choice {
             Choice::GoLeft => {
                 if roll < 3 {
@@ -81,6 +84,8 @@ fn main() {
                 println!("Invalid choice! Please enter L, R or Q.");
                 continue;
             }
+
+            //This could also be _ => as it represents all other possible choices
             Choice::Quit => {
                 println!("You've chosen to quit the game. Goodbye!");
                 break;
