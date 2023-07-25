@@ -2,7 +2,7 @@
 
 Welcome to the Rust Introduction Tutorial! This workshop is designed for those who are new to Rust, and it will walk you through the basics of using and understanding the language.
 
-![Rust Chengdu Coding Collective Meetup Info](chengdu-meetup.png)
+![Rust Chengdu Coding Collective Meetup Info](chengdu-meetup-mini.png)
 
 ## About Rust
 
