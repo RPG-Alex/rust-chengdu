@@ -17,6 +17,50 @@ You'll need the following software installed:
 1. [Rust](https://www.rust-lang.org/tools/install)
 2. An editor like [VS Code](https://code.visualstudio.com/download) (recommended with the [Rust-Analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) extension)
 
+## Installing Rust
+
+Follow the instructions for your OS below. Refer to [Rust](https://www.rust-lang.org/tools/install) if you get stuck.
+
+### Windows 
+
+1. To install Rust, download and run the following, and then follow the onscreen instructions.
+
+\`\`\`bash
+https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe
+\`\`\`
+
+2. After installation, you may need to close and reopen your command prompt or terminal.
+
+3. Verify the installation by typing the following command:
+
+\`\`\`bash
+rustc --version
+\`\`\`
+
+This should show the installed version of Rust.
+
+### MacOS
+
+1. Open Terminal.
+
+2. Download and install rustup by running the following command and following on-screen instructions:
+
+\`\`\`bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+\`\`\`
+
+3. Close the terminal window and reopen a new one.
+
+4. Verify the installation with:
+
+\`\`\`bash
+rustc --version
+\`\`\`
+
+This should output the version of Rust that was installed.
+
+
+
 ## What You'll Learn
 
 In this tutorial, you'll learn the basics of Rust, including:
