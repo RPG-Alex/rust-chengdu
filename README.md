@@ -76,7 +76,14 @@ In this tutorial, you'll learn the basics of Rust, including:
 - Structs, Enums, and Pattern Matching
 - Modules, Packages, and Crates
 
-We'll also explore how to use the Cargo package manager to manage dependencies and build a Rust project.
+### What We Won't Cover
+To try to apply to a broader audience we won't cover:
+
+- Concurrency
+- Cross Compilation
+- Networking
+- Creating a library
+- Much more coverd in the [rust book](https://doc.rust-lang.org/book/)
 
 ## Running the Code
 
