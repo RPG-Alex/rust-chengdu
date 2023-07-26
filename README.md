@@ -1,6 +1,8 @@
 # Rust Introduction Tutorial
 
-Welcome to the Rust Introduction Tutorial! This workshop is designed for those who are new to Rust, and it will walk you through the basics of using and understanding the language.
+Welcome to the Chengdu Coding Collective Rust Introduction Tutorial! This workshop is designed for those who are new to Rust, and it will walk you through the basics of using and understanding the language.
+
+During the tutorial please feel free to ask questions!
 
 ![Rust Chengdu Coding Collective Meetup Info](chengdu-meetup-mini.png)
 
@@ -62,8 +64,6 @@ cargo --version
 `
 
 This should output the version of Rust that was installed.
-
-
 
 ## What You'll Learn
 

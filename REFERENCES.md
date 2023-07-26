@@ -39,6 +39,8 @@
 
 [Stack Overflow 2023 Survey - Admired and Desired](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages)
 
+[Language Benchmarks](https://github.com/kostya/benchmarks)
+
 ## Reference
 [Official Rust Documentation](https://doc.rust-lang.org/beta/)
 
