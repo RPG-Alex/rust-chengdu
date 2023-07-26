@@ -1,34 +1,8 @@
-use std::io;
-use std::io::Write; 
-
 //this is how you call a crate's methods
 use rand::Rng;
 
-/// This enum represents all valid inputs for game
-enum Choice {
-    GoLeft,
-    GoRight,
-    Invalid,
-    Quit,
-}
-
-///This function evaluates the user input and returns the correct choice enum
-fn get_user_choice() -> Choice {
-        println!("~~Do you go left or right? (L/R/Q)");
-        print!("> ");
-        io::stdout().flush().unwrap(); // Ensure the `>` appears before the program waits for user input
-
-        let mut choice = String::new();
-        io::stdin().read_line(&mut choice).unwrap();
-
-        //This matches the choice after formatting and taking a slice
-        match choice.trim().to_lowercase().as_str() {
-            "l" => Choice::GoLeft,
-            "r" => Choice::GoRight,
-            "q" => Choice::Quit,
-            _ => Choice::Invalid,
-        }
-}
+mod user_choice;
+use user_choice::{Choice, get_user_choice};
 
 fn main() {
     println!("#### Welcome to the dungeon! ####\n#### This is a simple text based game ####\n#### follow the prompts to play! ####");
