@@ -2,7 +2,7 @@
 
 Welcome to The Chengdu Coding Collective's Second Monthly Rust meetup! This month we have an open agenda and are talking about all things rust, chengdu development, and more!
 
-![Rust Chengdu Coding Collective Meetup Info](oct13-2023-meetup-poster.png)
+![Rust Chengdu Coding Collective Meetup Info](oct13-2023-meetup-poster-mini.png)
 
 ## About Rust
 
