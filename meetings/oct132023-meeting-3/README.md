@@ -1,4 +1,4 @@
-# Chengdu Rust Meeting 2
+# Chengdu Rust Meeting 3
 
 Welcome to The Chengdu Coding Collective's Second Monthly Rust meetup! This month we have an open agenda and are talking about all things rust, chengdu development, and more!
 
