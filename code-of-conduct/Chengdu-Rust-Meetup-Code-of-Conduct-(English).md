@@ -1,5 +1,5 @@
 
-**Chengdu Rust Meetup Code of Conduct**
+*Chengdu Rust Meetup Code of Conduct*
 
 At Chengdu Rust Meetup, we are dedicated to providing an inclusive, safe, and welcoming environment for all attendees, regardless of nationality, race, gender, age, or background. To ensure a positive and respectful experience for everyone, we have established the following code of conduct.
 
@@ -27,7 +27,10 @@ The following behaviors are considered unacceptable and will not be tolerated:
 - Any other conduct that infringes upon the sense of safety and inclusion of others.
 
 **Consequences:**
-Attendees who engage in unacceptable behavior will be asked to stop such behavior. In severe cases, attendees may be removed from the event without a refund.
+Attendees who engage in unacceptable behavior will be asked to stop such behavior. In severe cases, attendees may be removed from the event.
+
+**Meetup Costs:**
+Rust Meetups do not charge for entry and will not charge for entry. These are community events, and any and all costs are incurred by the individual attending the event with the host venue, and not the responsiblity of the Rust Meetup organizers. No funds are transferred between attendees and the organizers, and the organizers receive no funds from the venue for hosting the event. If this is ever found to not be the case please report the incident to the meetup organizers.
 
 **Contact Information:**
 If you need to report an incident or have any questions related to this code of conduct, please contact our event organizers or staff.
