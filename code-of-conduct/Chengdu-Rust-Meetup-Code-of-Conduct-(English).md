@@ -1,5 +1,4 @@
-
-*Chengdu Rust Meetup Code of Conduct*
+#Chengdu Rust Meetup Code of Conduct
 
 At Chengdu Rust Meetup, we are dedicated to providing an inclusive, safe, and welcoming environment for all attendees, regardless of nationality, race, gender, age, or background. To ensure a positive and respectful experience for everyone, we have established the following code of conduct.
 
