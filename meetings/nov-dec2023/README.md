@@ -2,7 +2,7 @@
 
 Welcome to The Chengdu Coding Collective's 4th Monthly Rust meetup! This month we are discussing the advent of code and getting started with rust! We combined the November and December meetups for 
 
-![Rust Chengdu Coding Collective Meetup Info](rust-nov-dec-2023.mini.png)
+![Rust Chengdu Coding Collective Meetup Info](rust-nov-dec-2023-poster.mini.png)
 
 ## About Rust
 
